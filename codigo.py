@@ -8,7 +8,3 @@ st.write("""
 # Netflix Movies
 ## Gráficos usando la base de datos
 """)
-
-with st.sidebar:
-  st.write(#opciones)
-  div = st.slider('Numero de bins:' 0, 10,2)
