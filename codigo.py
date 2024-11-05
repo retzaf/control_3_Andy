@@ -12,8 +12,9 @@ st.write("""
 st.sidebar.image("Marvel-Vs.-DC.jpg")
 
 user_input = st.sidebar.text_input("Como te llamas?")
-a = 'hola,'+ user_input
-st.sidebar.write(a)
+if user_input:
+  st.sidebar.write('hola',user_input)
+  
                  
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
