@@ -1,3 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+
+df = pd.read_csv('/kaggle/input/weather-prediction/seattle-weather.csv')
+df.head()
