@@ -9,7 +9,7 @@ st.write("""
 ## Gráficos
 """)
 
-st.sidebar.image("Marvel-en-2019-destacada.jpg")
+st.sidebar.image("")
 
 with st.sidebar:
     st.write("# Opciones")
@@ -21,18 +21,4 @@ plt.hist(df['worldwide gross ($m)'], bins=10) # Using a default of 10 bins
 plt.xlabel('worldwide gross ($m)')
 plt.ylabel('% budget recovered')
 plt.title('Histogram of worldwide gross')
-st.pyplot()
-
-plt.figure(figsize=(12, 6))
-plt.hist(df['audience % score'], bins=10)
-plt.xlabel('audience % score')
-plt.ylabel('% budget recovered')
-plt.title('Histogram of Audience Score')
-st.pyplot()
-
-plt.figure(figsize=(12,6))
-plt.hist(df['year'], bins = 10)
-plt.xlabel('year')
-plt.ylabel('')
-plt.title('Histogram of Year')
 st.pyplot()
