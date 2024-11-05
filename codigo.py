@@ -11,7 +11,7 @@ st.write("""
 
 with st.sidebar:
     st.write("# Opciones")
-    div = st.slider('Número de bins:', 0, 10, 2)
+    div = st.slider('Número de bins:', 0, 100, 1)
     st.write("Bins =", div)
 
 plt.figure(figsize=(12, 6))
