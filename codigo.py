@@ -14,9 +14,10 @@ st.sidebar.image("Marvel-Vs.-DC.jpg")
 user_input = st.sidebar.text_input("Como te llamas?")
 if user_input:
   st.sidebar.write('hola',user_input)
-  
-st.button 
-color = red
+
+colores = {'Azul':'blue', 'Rojo':'red'
+           color_seleccionado =
+           st.selectbox"(selecciona un color", list(colores.keys()))
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
     div = st.slider('Número de bins:', 0, 100, 1)
