@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
-df = pd.read_csv('db.csv')
+db = 'db.csv'
+df = pd.read_csv(db)
 
 st.write("""
 # Netflix Movies
