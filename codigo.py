@@ -17,6 +17,6 @@ with st.sidebar:
 plt.figure(figsize=(12, 6))
 plt.hist(df['Gross Worldwide'], bins=div) 
 plt.xlabel('Gross Worldwide)')
-plt.ylabel('Rate')
+plt.ylabel('Budget')
 plt.title('Gross Worldwide)
 st.pyplot()
