@@ -17,7 +17,7 @@ if user_input:
 
 colores = {'Azul':'blue', 'Rojo':'red'
            color_seleccionado =
-           st.selectbox"(selecciona un color", list(colores.keys()))
+           st.selectbox"(selecciona un color", list(colores.keys()
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
     div = st.slider('Número de bins:', 0, 100, 1)
