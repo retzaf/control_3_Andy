@@ -11,7 +11,7 @@ st.write("""
 
 st.sidebar.image("Marvel-Vs.-DC.jpg")
 
-user_input = st.sidebar.text_input("Como te llamas?")
+user_input = st.sidebar.text_input("Hola")
 st.sidebar.write("Mucho gusto", user_input)
                  
 with st.sidebar:
