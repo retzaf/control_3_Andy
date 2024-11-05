@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/kaggle/input/weather-prediction/seattle-weather.csv')
+df = pd.read_csv('seattle-weather.csv')
 df.head()
 
 pred = np.concatenate([train_pred,val_pred,test_pred])
