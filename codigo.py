@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('seattle-weather.csv')
 df.head()
 
-pred = np.concatenate([train_pred,val_pred,test_pred])
+pred = concatenate([train_pred,val_pred,test_pred])
 df_pred = pd.DataFrame(df["temp_max"].copy())
 df_pred.columns=["actual"]
 df_pred = df_pred[WINDOW:]
