@@ -10,6 +10,9 @@ st.write("""
 """)
 
 st.sidebar.image("Marvel-Vs.-DC.jpg")
+
+user_input = st.sidebar.text_input("insertar texto")
+st.sidebar.write("insertar texto", user_input)
                  
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
