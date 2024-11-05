@@ -8,7 +8,8 @@ st.write("""
 # Marvel vs Dc
 ## Gráficos
 """)
-
+st.sidebar.image("650_1200.png)
+                 
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
     div = st.slider('Número de bins:', 0, 100, 1)
