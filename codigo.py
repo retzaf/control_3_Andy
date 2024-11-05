@@ -8,6 +8,7 @@ st.write("""
 # Marvel vs Dc
 ## Gráficos
 """)
+
 st.sidebar.image("650_1200.png)
                  
 with st.sidebar:
