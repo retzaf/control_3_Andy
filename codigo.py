@@ -9,7 +9,7 @@ st.write("""
 ## Gráficos
 """)
 
-st.sidebar.image("650_1200.png)
+st.sidebar.image("Marvel-Vs.-DC.jpg")
                  
 with st.sidebar:
     st.write("# Cambiar cantidad de Bins")
