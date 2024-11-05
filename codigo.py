@@ -11,4 +11,4 @@ st.write("""
 with st.sidebar:
   st.write('#Opciones')
   div = st.slider('Numero de bins:'.0.10.2)
-  st.write('Bins =',div)
+  st.write("Bins =",div)
