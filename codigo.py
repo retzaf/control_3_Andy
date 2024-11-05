@@ -25,7 +25,7 @@ plt.figure(figsize=(12, 6))
 plt.hist(df['Gross Worldwide'], bins=div) 
 plt.xlabel('Gross Worldwide)')
 plt.ylabel('Budget')
-plt.title('Ganancias en el mundo')
+plt.title('Ganancias generadas por marvel y dc')
 st.pyplot()
 
 plt.figure(figsize=(12, 6))
