@@ -4,4 +4,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("netflix_titles.csv")
 
-st.write(Netflix Movies)
+st.write("""
+# Netflix Movies
+## Gráficos usando la base de datos
+""")
