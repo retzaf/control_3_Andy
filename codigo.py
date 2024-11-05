@@ -18,5 +18,5 @@ plt.figure(figsize=(12, 6))
 plt.hist(df['Company'], bins=10) # Using a default of 10 bins
 plt.xlabel('Company)')
 plt.ylabel('Rate')
-plt.title('Histogram of worldwide gross')
+plt.title('nose')
 st.pyplot()
