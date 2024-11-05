@@ -9,8 +9,6 @@ st.write("""
 ## Gráficos
 """)
 
-st.sidebar.image("650_1200.png")
-
 with st.sidebar:
     st.write("# Opciones")
     div = st.slider('Número de bins:', 0, 10, 2)
