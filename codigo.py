@@ -6,7 +6,7 @@ df = pd.read_csv(db, sep=',', encoding='latin-1')
 
 st.write("""
 # Marvel vs Dc
-## Gráficos
+## Gráfico de ganancias
 """)
 
 st.sidebar.image("Marvel-Vs.-DC.jpg")
