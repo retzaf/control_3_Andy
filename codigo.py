@@ -4,6 +4,6 @@ import matplotlib.pyplot as plt
 import kagglehub
 
 # Download latest version
-path = kagglehub.dataset_download("gauthamp10/google-playstore-apps")
+path = kagglehub.dataset_download("shivamb/netflix-shows")
 
 print("Path to dataset files:", path)
