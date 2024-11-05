@@ -5,8 +5,8 @@ db = 'db.csv'
 df = pd.read_csv(db, sep=',', encoding='latin-1') 
 
 st.write("""
-# Top Marvel Movies
-## Gráficos usando la base de datos de Marvel Movies
+# Marvel vs Dc
+## Gráficos
 """)
 
 st.sidebar.image("Marvel-en-2019-destacada.jpg")
