@@ -15,8 +15,8 @@ with st.sidebar:
     st.write("Bins =", div)
 
 plt.figure(figsize=(12, 6))
-plt.hist(df['Company'], bins=10) # Using a default of 10 bins
-plt.xlabel('Company)')
+plt.hist(df['Gross Worldwide'], bins=div) 
+plt.xlabel('Gross Worldwide)')
 plt.ylabel('Rate')
-plt.title('nose')
+plt.title('Gross Worldwide)
 st.pyplot()
