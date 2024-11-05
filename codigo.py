@@ -9,7 +9,7 @@ st.write("""
 ## Gráficos
 """)
 
-st.sidebar.image("")
+st.sidebar.image("650_1200.png")
 
 with st.sidebar:
     st.write("# Opciones")
