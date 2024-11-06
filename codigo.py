@@ -12,11 +12,6 @@ st.write("""
 st.sidebar.image("Marvel-Vs.-DC.jpg")
 
 
-if st.button('no pulses este boton'):
-    st.write('no me hiciste caso :|')
-else:
-    st.write('porfavor no lo presiones')
-
 user_input = st.sidebar.text_input("Como te llamas?")
 if user_input:
   st.sidebar.write('hola',user_input)
@@ -32,6 +27,11 @@ plt.xlabel('Gross Worldwide)')
 plt.ylabel('Budget')
 plt.title('Ganancias generadas por marvel y dc')
 st.pyplot()
+
+if st.button('no pulses este boton'):
+    st.write('no me hiciste caso :|')
+else:
+    st.write('porfavor no lo presiones')
 
 plt.figure(figsize=(12, 6))
 plt.hist(df['Company'], bins=div) 
