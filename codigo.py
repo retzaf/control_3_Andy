@@ -40,3 +40,8 @@ plt.xlabel('Company')
 plt.ylabel('Rate')
 plt.title('¿Quién tiene mejor ratio?')
 st.pyplot()
+
+if st.button('no pulses este boton'):
+    st.write('no me hiciste caso :|')
+else:
+    st.write('porfavor no lo presiones')
