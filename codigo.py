@@ -21,6 +21,32 @@ with st.sidebar:
     div = st.slider('Número de bins:', 0, 100, 1)
     st.write("Bins =", div)
 
+
+import numpy as np
+
+# 
+def plot_chart(color):
+    x = np.arange(10)
+    y = np.random.randint(1, 10, size=10)
+    plt.bar(x, y, color=color)
+    plt.xlabel('X axis')
+    plt.ylabel('Y axis')
+    st.pyplot(plt.gcf())
+
+
+color_options = {
+    'Rojo': 'red',
+    'Azul': 'blue',
+    'Dorado': 'gold',
+    'Rosado': 'pink'
+}
+
+
+color_choice = st.selectbox('Cambia el color del gráfico', list(color_options.keys()))
+
+
+plot_chart(color_options[color_choice])
+
 plt.figure(figsize=(12, 6))
 plt.hist(df['Gross Worldwide'], bins=div) 
 plt.xlabel('Gross Worldwide)')
