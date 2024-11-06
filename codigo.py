@@ -28,10 +28,6 @@ plt.ylabel('Budget')
 plt.title('Ganancias generadas por marvel y dc')
 st.pyplot()
 
-if st.button('no pulses este boton'):
-    st.write('no me hiciste caso :|')
-else:
-    st.write('porfavor no lo presiones')
 
 plt.figure(figsize=(12, 6))
 plt.hist(df['Company'], bins=div) 
@@ -39,3 +35,9 @@ plt.xlabel('Company)')
 plt.ylabel('Rate')
 plt.title('Quien tiene mejor ratio?')
 st.pyplot()
+
+
+if st.button('no pulses este boton'):
+    st.write('no me hiciste caso :|')
+else:
+    st.write('porfavor no lo presiones')
