@@ -21,8 +21,8 @@ with st.sidebar:
     div = st.slider('Número de bins:', 0, 100, 1)
     st.write("Bins =", div)
 
-color_input_1 = st.sidebar.color_picker("Que color quieres para el primer gráfico?", 'green')
-color_input_2 = st.sidebar.color_picker("y para el segundo gráfico?", 'blue')
+color_input_1 = st.sidebar.color_picker("selecciona un color para el primer gráfico", '#00f900')
+color_input_2 = st.sidebar.color_picker("ahora para el segundo gráfico", '#ff5733')
 
 plt.figure(figsize=(12, 6))
 plt.hist(df['Gross Worldwide'], bins=div, color=color_input_1)
