@@ -22,29 +22,12 @@ with st.sidebar:
     st.write("Bins =", div)
 
 
-
-
-
-
-
-
-
-def plot_chart(color):
-
-color_options = {
-    'Rojo': 'red',
-    'Azul': 'blue',
-    'Dorado': 'gold',
-    'Rosado': 'pink'
-}
 plt.figure(figsize=(12, 6))
 plt.hist(df['Gross Worldwide'], bins=div) 
 plt.xlabel('Gross Worldwide)')
 plt.ylabel('Budget')
 plt.title('Ganancias generadas por marvel y dc')
 st.pyplot()
-color_choice = st.selectbox('Cambia el color del gráfico', list(color_options.keys()))
-plot_chart(color_options[color_choice])
 
 plt.figure(figsize=(12, 6))
 plt.hist(df['Company'], bins=div) 
@@ -52,7 +35,6 @@ plt.xlabel('Company)')
 plt.ylabel('Rate')
 plt.title('Quien tiene mejor ratio?')
 st.pyplot()
-
 
 if st.button('no pulses este boton'):
     st.write('no me hiciste caso :|')
