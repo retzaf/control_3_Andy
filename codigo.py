@@ -13,9 +13,9 @@ st.sidebar.image("Marvel-Vs.-DC.jpg")
 
 
 if st.button('no pulses este boton'):
-    st.write('lo presionaste')
+    st.write('no me hiciste caso :|')
 else:
-    st.write('muy mal')
+    st.write('porfavor no lo presiones')
 
 user_input = st.sidebar.text_input("Como te llamas?")
 if user_input:
