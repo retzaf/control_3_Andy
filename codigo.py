@@ -12,10 +12,10 @@ st.write("""
 st.sidebar.image("Marvel-Vs.-DC.jpg")
 
 
-if st.button('Haz clic aquí'):
-    st.write('¡Botón presionado!')
+if st.button('no pulses este boton'):
+    st.write('lo presionaste')
 else:
-    st.write('Haz clic en el botón')
+    st.write('muy mal')
 
 user_input = st.sidebar.text_input("Como te llamas?")
 if user_input:
