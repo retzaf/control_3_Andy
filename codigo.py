@@ -21,21 +21,18 @@ with st.sidebar:
     div = st.slider('Número de bins:', 0, 100, 1)
     st.write("Bins =", div)
 
-color_input = st.sidebar.multiselect(
-    "Elige los colores para los gráficos",
-    options=['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown'],
-    default=['green', 'blue']  
-)
+color_input_1 = st.sidebar.color_picker("Elige el color para el primer gráfico", '#00f900')
+color_input_2 = st.sidebar.color_picker("Elige el color para el segundo gráfico", '#ff5733')
 
 plt.figure(figsize=(12, 6))
-plt.hist(df['Gross Worldwide'], bins=div, color=color_input[0])
+plt.hist(df['Gross Worldwide'], bins=div, color=color_input_1)
 plt.xlabel('Gross Worldwide')
 plt.ylabel('Budget')
 plt.title('Ganancias generadas por Marvel y DC')
 st.pyplot()
 
 plt.figure(figsize=(12, 6))
-plt.hist(df['Company'], bins=div, color=color_input[1])
+plt.hist(df['Company'], bins=div, color=color_input_2)
 plt.xlabel('Company')
 plt.ylabel('Rate')
 plt.title('¿Quién tiene mejor ratio?')
